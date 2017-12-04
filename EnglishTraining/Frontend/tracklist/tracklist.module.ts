@@ -5,7 +5,7 @@ import { TrackListComponent } from "./tracklist.component";
 
 export const name = "wave.chart.fullstack.components";
 angular
-    .module(name, [])
+    .module(name, ['nvd3'])
     .component("etTrackList", {
         template: TrackListTemplate,
         controller: TrackListComponent
